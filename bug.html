@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Bug</title>
+</head>
+<body>
+  <div id="myDiv">
+    <p>This is some text.</p>
+  </div>
+  <script>
+    //Incorrect way to access element by ID
+    document.getElementById('myDiv').innerHTML = "<h1>This is a heading<h1>"; 
+  </script>
+</body>
+</html>

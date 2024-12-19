@@ -1,0 +1,2 @@
+# Unclosed h1 tag in innerHTML
+This repo demonstrates an uncommon HTML bug related to using innerHTML with an improperly closed tag. The bug occurs because of a missing double quote in the h1 tag assignment inside the innerHTML property, causing the javascript to fail and not update the div content.
